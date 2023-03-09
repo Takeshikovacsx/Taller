@@ -27,6 +27,7 @@ nav a {
   background-color: #3a3c4f;
   align-items: center;
   align-content: center;
+  padding: 40px;
 }
 
 .acercademi {
@@ -40,6 +41,8 @@ div h1 {
 }
 div p {
   text-align: center;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
 }
 
 .home img {
@@ -48,18 +51,28 @@ div p {
 }
 .contenidoHome {
   flex: 1;
-  padding: 40px;
-  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-block-start: 15px;
+  margin-block-end: 30px;
 }
 
 .contenido {
   flex: 3;
   padding: 50px;
   margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-block-start: 15px;
+  margin-block-end: 30px;
+  background-color: #242635;
 }
 
 .section {
   background-color: #402f54;
+    padding: 50px;
+    text-align: center;
+
 }
 #home {
   background-color: #242635;
@@ -84,13 +97,82 @@ div p {
   list-style: none;
   margin: 0 20px;
   padding: 20px;
+  background-color: #3a3c4f;
 }
 
 .experiencia {
-text-align: center;
- background-color: #242635;
+  text-align: center;
+  background-color: #242635;
 }
-.logosexperiencia{
-  flex:1;
+
+.centrar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
+  background-color: #242635;
+  border-radius: 20px;
+  border: solid 2px black;
 }
+
+
+#Imagen_principal{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 400px;
+}
+h2 {
+  font-size: 36px;
+  color: #whitesmoke;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+li {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  max-width: 300px;
+  flex-grow: 1;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-block-start: 15px;
+  margin-block-end: 30px;
+  background-color: #3a3c4f;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+.Experiencia{
+  background-color: #3a3c4f;
+  padding: 20px;
+  padding-top: 4px;
+}
+.habilidades{
+  padding: 50px;
+ 
+}
+
 
